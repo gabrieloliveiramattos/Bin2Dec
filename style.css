@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+    font-family: Roboto, Arial, sans-serif;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: black;
+    text-align: center;
+    margin-top: 15%;
+}
+
+section {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h3 {
+    width: 450px;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: black;
+    text-align: center;
+}
+
+.bin2dec-container {
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 20px;
+    flex-direction: row;
+    display: flex;
+}
+
+.bin2dec-el label{
+    font-size: 14px;
+    color: blue;
+}
+
+.bin2dec-el input {
+    justify-content: space-between;    
+    display: block;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 16px;
+    color: blue;
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: #87ceeb;
+}
+
+.calculo{
+    margin-top: 5%;
+    margin-left: -180px;
+    display: flex;
+}
+
+.calculo p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>Titulo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Bin2Dec</h1>
+        <section>
+            <h3>Os números binários formam um sistema matemático usado por computadores para criar informações. Ele é composto por uma base de apenas dois algarismos: 0 e 1</h3>
+            <div class="bin2dec-container">
+                <div class="bin2dec-el entrada">
+                    <label for="binario">Binario</label>
+                    <input type="text" name="binario" id="binario" maxlength="9" onkeypress="return SomenteZeroOne(event)">
+                </div>
+                <div class="bin2dec-el saida">
+                    <label for="binario">Decimal</label>
+                    <input type="text" name="decimal" id="decimal" disabled>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
